@@ -5,24 +5,11 @@
 			{
 				"name": "Wait1",
 				"type": "Wait",
-				"dependsOn": [
-					{
-						"activity": "ForEach1",
-						"dependencyConditions": [
-							"Completed"
-						]
-					}
-				],
+				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
 					"waitTimeInSeconds": 1
 				}
-			},
-			{
-				"name": "ForEach1",
-				"type": "ForEach",
-				"dependsOn": [],
-				"userProperties": []
 			}
 		],
 		"annotations": [],
